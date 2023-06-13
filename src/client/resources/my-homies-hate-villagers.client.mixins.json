@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.villagerhate.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+      "VillagerHateClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

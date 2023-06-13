@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "my-homies-hate-villagers",
+	"version": "${version}",
+	"name": "My Homies Hate Villagers",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/my-homies-hate-villagers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.villagerhate.VillagerHate"
+		],
+		"client": [
+			"com.villagerhate.VillagerHateClient"
+		]
+	},
+	"mixins": [
+		"my-homies-hate-villagers.mixins.json",
+		{
+			"config": "my-homies-hate-villagers.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

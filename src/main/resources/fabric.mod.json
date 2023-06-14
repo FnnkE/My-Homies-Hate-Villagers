@@ -1,15 +1,15 @@
 {
 	"schemaVersion": 1,
 	"id": "my-homies-hate-villagers",
-	"version": "${version}",
+	"version": "${1.0}",
 	"name": "My Homies Hate Villagers",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Removes all villagers and zombie villagers from the game.",
 	"authors": [
-		"Me!"
+		"FnkE"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/FnnkE/My-Homies-Hate-Villagers"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/my-homies-hate-villagers/icon.png",
